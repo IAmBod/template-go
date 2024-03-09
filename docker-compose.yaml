@@ -1,0 +1,8 @@
+services:
+    server:
+        build:
+            context: .
+        image: template-go
+        container_name: template-go
+        ports:
+            - '127.0.0.1:8088:8088'
